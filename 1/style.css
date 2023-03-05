@@ -1,0 +1,204 @@
+*,
+*::before,
+::after{
+box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato' ,sans-serif;
+}
+.container{
+    width: 1660px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.top{
+    width: 1660px;
+    height: 80px;
+    background-color:#232536;
+   
+    padding: 4em;
+
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin: 0 40px 0 0;
+    padding: center;
+    list-style: none;
+    text-decoration: none;
+}
+.trop-item+.trop-item{
+    margin-left: 60px;
+}
+.trop-item+.tro-item{
+    margin-left:200px;
+}
+
+.trop-item{
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    color: beige;
+
+}
+
+.styled {
+    top: 35px;
+    right: 60px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    top: 35px;
+    right: 60px;
+}
+
+.styled:hover {
+    background-color: rgb(44, 160, 59);
+   
+}
+.text{
+    max-width: 1660px;
+    padding: 400px;
+    background-image: url(img/log.png);
+}
+.van{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    right: 700px;
+    color: rgb(246, 246, 243);
+}
+.tu{
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    right: 500px;
+    font-size: 3em;
+    color: #fff;
+}
+.sri{
+    position: absolute;
+    top: 490px;
+    left: 200px;
+    color: #ada5a5;
+}
+span{
+    color: rgb(209, 126, 25);
+}
+.fo{
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    color: #ada5a5;
+}
+.button{
+    position: absolute;
+    top:640px;
+    left: 200px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+
+}
+.text-title{
+    position: absolute;
+    align-items: center;
+}
+.bro{
+   width: 1660px;
+   height: 60px;
+}
+.tex{
+    position: absolute;
+    color: #1b1313;
+    align-items: center;
+    top: 950px;
+    left: 150px;
+    padding: 2em;
+}
+.tex1{
+    position: absolute;
+    color: #1b1313;
+    align-items: center;
+    top: 1000px;
+    left: 800px;
+}
+.tex2{
+     position: absolute;
+    color: #1b1313;
+    align-items: center;
+    top: 1000px;
+    left: 1200px;
+    padding: 0.2em;
+}
+.section{
+    position: absolute;
+    width: 1660px;
+    top: 1080px;
+}
+.foto-columb{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    right: 870px;
+   
+    text-shadow: 1px 0 1px #000,
+   
+}
+
+.texto{
+    position: absolute;
+    top: 430px;
+ font-size: 1.5em;
+}
+.red{
+    position: absolute;
+    top: 530px;
+    color: #ada5a5;
+}
+.derr{
+    position: absolute;
+    top: 650px;
+    padding: 8px 16px ;
+    border: #b4a009;
+    font-size: 1em;
+    background-color: #f9df1b;
+
+}
+.fris{
+    position: absolute;
+    top: 90px;
+    left: 900px;
+    right: 450px;
+}
+
+.tr-title{
+    font-size: 0.8em;
+}
+.tr-titl{
+    font-size: 1.4em;
+    right: 450px;
+}
+span{
+    color: rgb(26, 210, 210);
+}
